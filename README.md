@@ -4,7 +4,7 @@ Converts (some) IBM Connections Cloud ATOM XML to JSON.
 
 ## Usage
 ```javascript
-var cnx2js = require('@ics-demo/cnx2js');
+var cnx2js = require('cnx2js');
 cnx2js.format(xml, 'topics', (err, json) => {
     console.log(json);
 });

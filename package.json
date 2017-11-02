@@ -1,0 +1,26 @@
+{
+  "name": "cnx2js",
+  "version": "1.0.5",
+  "description": "Converts (some) IBM Connections Cloud ATOM XML to JSON.",
+  "main": "cnx2js.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.ibm.com/van-staub/cnx2js.git"
+  },
+  "keywords": [
+    "ibm",
+    "connections",
+    "atom",
+    "json",
+    "xml"
+  ],
+  "author": "van_staub@us.ibm.com",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "winston": "^2.4.0",
+    "xml2js": "^0.4.17"
+  }
+}

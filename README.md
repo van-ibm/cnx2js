@@ -2,6 +2,10 @@
 
 Converts (some) IBM Connections Cloud ATOM XML to JSON.
 
+## Installation
+
+`npm install cnx2js --save`
+
 ## Usage
 ```javascript
 var cnx2js = require('cnx2js');
